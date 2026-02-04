@@ -4,8 +4,8 @@ import { Playfair_Display, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-serif' });
-const _inter = Inter({ subsets: ["latin"], variable: '--font-sans' });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-serif' });
+const inter = Inter({ subsets: ["latin"], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   title: 'Notaris PPAT Bandung Antapani Arcamanik | Yuliany Idawati, S.H.',
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     'akta tanah bandung',
     'pendirian pt bandung',
     'wasiat bandung',
-    'yuliany idawati',
+    'yuliani idawati',
     'notaris terdekat'
   ],
-  authors: [{ name: 'Yuliany Idawati, S.H.' }],
-  creator: 'Yuliany Idawati, S.H.',
-  publisher: 'Kantor Notaris Yuliany Idawati',
+  authors: [{ name: 'Yuliani Idawati, S.H., Sp.N.' }],
+  creator: 'Yuliani Idawati, S.H., Sp.N.',
+  publisher: 'Kantor Notaris Yuliani Idawati',
   robots: {
     index: true,
     follow: true,
@@ -42,19 +42,19 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'id_ID',
     url: 'https://notaris-yuliany.com',
-    siteName: 'Notaris PPAT Yuliany Idawati',
-    title: 'Notaris PPAT Bandung Antapani Arcamanik | Yuliany Idawati, S.H.',
+    siteName: 'Notaris PPAT Yuliani Idawati',
+    title: 'Notaris PPAT Bandung Antapani Arcamanik | Yuliani Idawati, S.H., Sp.N.',
     description: 'Notaris PPAT terpercaya di Bandung, Antapani, Arcamanik. Layanan notaris, akta tanah, pendirian PT/CV, wasiat di Bandung Timur. Konsultasi gratis.',
     images: [{
       url: '/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Notaris PPAT Yuliany Idawati Bandung',
+      alt: 'Notaris PPAT Yuliani Idawati Bandung',
     }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Notaris PPAT Bandung Antapani Arcamanik | Yuliany Idawati, S.H.',
+    title: 'Notaris PPAT Bandung Antapani Arcamanik | Yuliany Idawati, S.H., Sp.N.',
     description: 'Notaris PPAT terpercaya di Bandung, Antapani, Arcamanik. Layanan notaris, akta tanah, pendirian PT/CV.',
     images: ['/og-image.jpg'],
   },
@@ -95,7 +95,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LegalService",
-              "name": "Kantor Notaris Yuliany Idawati, S.H.",
+              "name": "Kantor Notaris Yuliani Idawati, S.H., Sp.N.",
               "description": "Notaris PPAT terpercaya di Bandung, Antapani, Arcamanik. Melayani akta tanah, pendirian perusahaan, wasiat dan layanan notaris lainnya.",
               "url": "https://notaris-yuliany.com",
               "telephone": "+62-22-1234567",
@@ -118,14 +118,14 @@ export default function RootLayout({
               "openingHours": "Mo-Fr 08:00-17:00",
               "founder": {
                 "@type": "Person",
-                "name": "Yuliany Idawati, S.H.",
+                "name": "Yuliani Idawati, S.H., Sp.N.",
                 "jobTitle": "Notaris PPAT"
               }
             })
           }}
         />
       </head>
-      <body className={`font-sans antialiased`}>
+      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

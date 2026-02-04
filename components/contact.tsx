@@ -5,7 +5,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Alamat Kantor",
-    content: "Jl. Terusan Jakarta No.30C, Cicaheum\nKec. Kiaracondong, Kota Bandung\nJawa Barat 40281\n(Dekat Antapani & Arcamanik)",
+    content: "Jl. Terusan Jakarta No.30C, Cicaheum\nKec. Kiaracondong, Kota Bandung\nJawa Barat 40281",
   },
   {
     icon: Phone,
@@ -37,10 +37,10 @@ export function Contact() {
               Hubungi Kami
             </span>
             <h2 className="font-serif text-3xl lg:text-4xl font-semibold text-primary-foreground mb-4 text-balance">
-              Notaris PPAT Terdekat di Bandung Antapani Arcamanik
+              Konsultasikan Kebutuhan Hukum Anda
             </h2>
             <p className="text-primary-foreground/80 max-w-2xl mx-auto">
-              Konsultasi gratis untuk layanan notaris dan PPAT di wilayah Bandung Timur. Tim berpengalaman siap membantu Anda
+              Konsultasi gratis untuk layanan notaris dan PPAT. Tim berpengalaman siap membantu menjawab pertanyaan Anda
             </p>
           </div>
 
@@ -82,7 +82,7 @@ export function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Lokasi Kantor Notaris Yuliany Idawati, S.H. di Bandung"
+                title="Lokasi Kantor Notaris Yuliani Idawati, S.H., Sp.N. di Bandung"
               />
             </div>
           </div>

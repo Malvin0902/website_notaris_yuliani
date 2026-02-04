@@ -21,12 +21,12 @@ export function Hero() {
 
           {/* Main Heading */}
           <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-primary-foreground leading-tight text-balance mb-6">
-            Notaris PPAT Terpercaya di Bandung Antapani & Arcamanik
+            Notaris PPAT Terpercaya di Bandung
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg lg:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 text-pretty">
-            Layanan Notaris, PPAT, dan NPAK Profesional untuk Bandung Timur - Yuliany Idawati, S.H.
+            Yuliani Idawati, S.H., Sp.N. - Layanan Notaris, PPAT, dan NPAK Profesional
           </p>
 
           {/* CTA Buttons */}

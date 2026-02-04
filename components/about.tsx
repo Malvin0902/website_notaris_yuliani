@@ -35,17 +35,17 @@ export function About() {
                 Tentang Kami
               </span>
               <h2 className="font-serif text-3xl lg:text-4xl font-semibold text-foreground mb-6 text-balance">
-                Yuliani Idawati, S.H.
+                Yuliani Idawati, S.H., Sp.N.
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Sebagai Notaris, PPAT (Pejabat Pembuat Akta Tanah), dan NPAK (Notaris Pembuat Akta Koperasi) yang berlisensi dan berpengalaman di Bandung, Yuliani Idawati, S.H. berkomitmen untuk memberikan layanan hukum terbaik dengan standar profesionalisme tertinggi untuk wilayah Antapani, Arcamanik, dan sekitar Bandung Timur.
+                  Sebagai Notaris, PPAT (Pejabat Pembuat Akta Tanah), dan NPAK (Notaris Pembuat Akta Koperasi) yang berlisensi dan berpengalaman di Bandung, Yuliani Idawati, S.H., Sp.N. berkomitmen untuk memberikan layanan hukum terbaik dengan standar profesionalisme tertinggi.
                 </p>
                 <p>
-                  Berlokasi strategis di kawasan Bandung Timur, kantor kami mudah diakses dari Antapani, Arcamanik, Ujungberung, dan wilayah sekitarnya. Dengan pemahaman mendalam tentang hukum Indonesia dan regulasi properti di Bandung, kami siap membantu Anda dalam berbagai kebutuhan legal, mulai dari akta jual beli tanah, pendirian badan usaha, hingga layanan koperasi.
+                  Berlokasi strategis di Bandung, kantor kami mudah diakses dari berbagai wilayah di kota Bandung. Dengan pemahaman mendalam tentang hukum Indonesia dan regulasi properti, kami siap membantu Anda dalam berbagai kebutuhan legal, mulai dari akta jual beli tanah, pendirian badan usaha, hingga layanan koperasi.
                 </p>
                 <p>
-                  Kami memahami pentingnya kepercayaan dalam setiap transaksi hukum, khususnya dalam urusan properti dan bisnis di Bandung. Oleh karena itu, kami selalu mengutamakan transparansi, kepatuhan terhadap peraturan Kementerian Agraria dan Tata Ruang, serta kerahasiaan klien dalam setiap layanan notaris dan PPAT yang kami berikan.
+                  Kami memahami pentingnya kepercayaan dalam setiap transaksi hukum. Oleh karena itu, kami selalu mengutamakan transparansi, kepatuhan terhadap peraturan Kementerian Agraria dan Tata Ruang, serta kerahasiaan klien dalam setiap layanan notaris dan PPAT yang kami berikan.
                 </p>
               </div>
             </div>

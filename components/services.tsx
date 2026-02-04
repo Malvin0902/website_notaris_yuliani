@@ -54,7 +54,7 @@ export function Services() {
               Layanan Notaris PPAT Terlengkap di Bandung
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Melayani Antapani, Arcamanik, dan seluruh Bandung Timur dengan layanan notaris dan PPAT profesional untuk kebutuhan hukum Anda
+              Layanan notaris dan PPAT profesional dengan standar kualitas terbaik untuk kebutuhan hukum Anda
             </p>
           </div>
 

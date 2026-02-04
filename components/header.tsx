@@ -34,10 +34,10 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex flex-col">
             <span className="font-serif text-lg lg:text-xl font-semibold text-primary">
-              Yuliany Idawati, S.H.
+              Yuliani Idawati, S.H., Sp.N.
             </span>
             <span className="text-xs text-muted-foreground tracking-wide">
-              Notaris PPAT Bandung Antapani
+              Notaris PPAT Bandung
             </span>
           </Link>
 
